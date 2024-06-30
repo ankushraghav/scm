@@ -34,6 +34,7 @@ public class User {
 
 //SELF,GOOGLE,FACEBOOK,TWITTER
 
+    @Enumerated(value = EnumType.STRING)
     private Providers provider = Providers.SELF;
     private String providerUserId;
 
